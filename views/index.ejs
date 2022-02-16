@@ -16,7 +16,6 @@
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous"
     ></script>
-    <script src="ejs.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -29,11 +28,7 @@
           Clique aqui para obter a lista de funcionarios
         </button>
       </div>
-      <div class="">
-        <% if(users) { %>
-        <p><%= users[1] %></p>
-        <% } %>
-      </div>
+      <div class="funcionarios"></div>
     </div>
 
     <script src="FuncionariosController.js"></script>

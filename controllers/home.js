@@ -6,6 +6,6 @@ module.exports = (app) => {
 
   app.post("/", (req, res) => {
     users = ["geddy", "neil", "alex"];
-    res.status(200).json({ users: users });
+    res.status(200).json(users);
   });
 };
